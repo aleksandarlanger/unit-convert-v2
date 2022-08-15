@@ -1,31 +1,123 @@
-.ui {
-  margin-top: 2em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-#form_left {
-  margin-bottom: 1em;
+body {
+  margin: 0;
+}
+
+main {
+  min-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+}
+
+.ui {
+  min-width: 50%;
+  margin-top: 2em;
+  margin: 0 auto;
+  display: block;
 }
 
 #output {
-  margin-top: 5em;
-  margin-bottom: 2em;
+}
+
+#main_select {
+  width: 15.6em;
+}
+
+#secondary_select {
+  width: 15.6em;
+  margin-bottom: 3em;
 }
 
 input,
 select {
-  width: 12em;
-
+  width: 15.6em;
   padding: 0;
   margin: 0;
-}
-
-input {
-  height: 1.5em;
+  text-align: center;
+  font-size: 18px;
+  border: 0;
+  outline: 0px;
+  scroll-behavior: smooth;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 select {
-  height: 1.8em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: whitesmoke;
+  background-color: #36a8aeb2;
+  height: 2em;
+}
+
+input {
+  height: 5em;
+  text-align: center;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.left {
+  margin-top: 8em;
+}
+
+button {
+  background-color: #36a9ae;
+  background-image: linear-gradient(#37adb2, #329ca0);
+  border: 1px solid #2a8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 17px;
+  line-height: 100%;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow 0.05s ease-in-out, opacity 0.05s ease-in-out;
+  touch-action: manipulation;
+  width: 6em;
+  margin: 0 auto;
+}
+
+button:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset,
+    rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: 0.15s, 0.15s;
+}
+
+button:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+button:disabled:active {
+  pointer-events: none;
+}
+
+button:disabled:hover {
+  box-shadow: none;
 }

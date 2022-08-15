@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Unit Converter</title>
   </head>
   <body>
     <main class="main_container">
       <div class="ui">
-        <form id="form_left">
+        <div class="left">
           <input type="number" name="leftInput" id="userinput" />
 
           <!--                      -->
@@ -24,11 +28,11 @@
             <option value="inch">Inch</option>
             <option value="foot">Foot</option>
             <option value="mile">Mile</option>
-            <option value="kilometer">Kilometer</option>
           </select>
-        </form>
+        </div>
 
-        <div>
+        <div class="right">
+          <input type="number" name="" id="output" readonly="true" />
           <select name="secondarySelect" id="secondary_select">
             <option value="">Please choose an option</option>
             <option value="milimeter">Milimeter</option>
@@ -38,13 +42,11 @@
             <option value="inch">Inch</option>
             <option value="foot">Foot</option>
             <option value="mile">Mile</option>
-            <option value="kilometer">Kilometer</option>
           </select>
-          <input type="number" name="" id="output" />
         </div>
-
-        <button id="converter">Convert</button>
       </div>
+
+      <button id="converter">Convert</button>
     </main>
 
     <script src="app.js"></script>
