@@ -103,215 +103,215 @@ class Units {
 
 mmToInch = () => {
   const unitconversion = new Units(userinput.value, mm.toIn);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 mmToFoot = () => {
   const unitconversion = new Units(userinput.value, mm.toFoot);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 mmToMile = () => {
   const unitconversion = new Units(userinput.value, mm.toMile);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 cmToInch = () => {
   const unitconversion = new Units(userinput.value, cm.toIn);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 cmToFoot = () => {
   const unitconversion = new Units(userinput.value, cm.toFoot);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 cmToMile = () => {
   const unitconversion = new Units(userinput.value, cm.toMile);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 mToInch = () => {
   const unitconversion = new Units(userinput.value, m.toIn);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 mToFoot = () => {
   const unitconversion = new Units(userinput.value, m.toFoot);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 mToMile = () => {
   const unitconversion = new Units(userinput.value, m.toMile);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 kmToInch = () => {
   const unitconversion = new Units(userinput.value, km.toIn);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 kmToFoot = () => {
   const unitconversion = new Units(userinput.value, km.toFoot);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 kmToMile = () => {
   const unitconversion = new Units(userinput.value, km.toMile);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 //  ................... METRIC TO METRIC  ...............
 
 mmToCm = () => {
   const unitconversion = new Units(userinput.value, mm.toCm);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply();
 };
 
-cmTom = () => {
-  const unitconversion = new Units(userinput.value, mm.toCm);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+cmTokm = () => {
+  const unitconversion = new Units(userinput.value, cm.toKm);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 mmToM = () => {
   const unitconversion = new Units(userinput.value, mm.toM);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply().toFixed(3);
 };
 
 cmToMm = () => {
   const unitconversion = new Units(userinput.value, cm.toMm);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply();
 };
 
 cmToM = () => {
   const unitconversion = new Units(userinput.value, cm.toM);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply();
 };
 
 mToMm = () => {
   const unitconversion = new Units(userinput.value, m.toMm);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply();
 };
 
 mToKm = () => {
   const unitconversion = new Units(userinput.value, m.toKm);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply();
 };
 
 mToCm = () => {
   const unitconversion = new Units(userinput.value, m.tocM);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply();
 };
 
 kmToMm = () => {
   const unitconversion = new Units(userinput.value, km.toMm);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply();
 };
 
 kmToCm = () => {
   const unitconversion = new Units(userinput.value, km.tocM);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply();
 };
 
 kmToM = () => {
   const unitconversion = new Units(userinput.value, km.toM);
-  output.value = unitconversion.convertMultiply().toFixed(2);
+  output.value = unitconversion.convertMultiply();
 };
 
 //  ................... IMPERIAL TO METRIC  ...............
 
 inchToMm = () => {
   const unitconversion = new Units(userinput.value, mm.toIn);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 inchToCm = () => {
   const unitconversion = new Units(userinput.value, cm.toIn);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 inchToM = () => {
   const unitconversion = new Units(userinput.value, m.toIn);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 inchToKm = () => {
   const unitconversion = new Units(userinput.value, km.toIn);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 footToMm = () => {
   const unitconversion = new Units(userinput.value, mm.toFoot);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 footToCm = () => {
   const unitconversion = new Units(userinput.value, cm.toFoot);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 footToM = () => {
   const unitconversion = new Units(userinput.value, m.toFoot);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 footToKm = () => {
   const unitconversion = new Units(userinput.value, km.toFoot);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 mileToCm = () => {
   const unitconversion = new Units(userinput.value, cm.toMile);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 mileToMM = () => {
   const unitconversion = new Units(userinput.value, mm.toMile);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 mileToM = () => {
   const unitconversion = new Units(userinput.value, m.toMile);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 mileTokM = () => {
   const unitconversion = new Units(userinput.value, km.toMile);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 //  ................... IMPERIAL TO IMPERIAL  ...............
 
 inchToFoot = () => {
   const unitconversion = new Units(userinput.value, inch.toFoot);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 inchToMile = () => {
   const unitconversion = new Units(userinput.value, inch.toMile);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 footToInch = () => {
   const unitconversion = new Units(userinput.value, foot.toIn);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 footToMile = () => {
   const unitconversion = new Units(userinput.value, foot.toMile);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 inchToMile = () => {
   const unitconversion = new Units(userinput.value, inch.toMile);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 mileToFoot = () => {
   const unitconversion = new Units(userinput.value, mile.toFoot);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 mileToInch = () => {
   const unitconversion = new Units(userinput.value, mile.toIn);
-  output.value = unitconversion.convertDivide().toFixed(2);
+  output.value = unitconversion.convertDivide().toFixed(3);
 };
 
 //  ................. EXECUTION .................
@@ -399,6 +399,8 @@ convertBtn.addEventListener("click", () => {
     cmToMm();
   } else if (option1.value === "centimeter" && option2.value === "meter") {
     cmToM();
+  } else if (option1.value === "centimeter" && option2.value === "kilometer") {
+    cmTokm();
   } else if (option1.value === "centimeter" && option2.value === "centimeter") {
     output.value = userinput.value;
   }
